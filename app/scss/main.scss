@@ -1,0 +1,115 @@
+body {
+    // background-color: #F5F5F1;
+    font-family: helvetica;
+    .login,
+    .sign-up {
+        background-color: #AED198;
+        width: 50%;
+        text-align: center;
+        margin: 0 auto;
+        border-radius: 5px;
+        h2 {
+            padding-top: 0.5rem;
+        }
+        input {
+            font-size: 1rem;
+            background-color: #CBE4BC;
+            display: block;
+            margin: 0 auto;
+            width: 50%;
+        }
+        .password {
+            margin-bottom: 1rem;
+        }
+        .submit {
+            background-color: #90B278;
+            width: 100%;
+            border: 0;
+            font-size: 1.3rem;
+            color: white;
+            padding: 0.5rem;
+            &:hover {
+                background-color: black;
+            }
+        }
+    }
+    .signup-link {
+        text-align: center;
+        font-size: 0.8rem;
+        a {
+            text-decoration: none;
+            color: black;
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+    }
+    nav {
+        text-align: right;
+        background-color: #90B278;
+        padding: 1rem;
+        margin-bottom: 2rem;
+        a {
+            color: black;
+            &:hover {
+                text-decoration: none;
+            }
+        }
+    }
+    h2 {
+        text-align: center;
+    }
+    .contact-names {
+        list-style-type: none;
+        padding-left: none;
+        .fullName {
+            display: inline-block;
+        }
+        .nickName {
+            display: inline-block;
+        }
+        .phoneNumber {
+            margin-bottom: 2rem;
+        }
+        span {
+            font-weight: bold;
+        }
+    }
+    .contact-form {
+      margin-top: 2rem;
+      width: 50%;
+      margin: 0 auto;
+      background-color: #AED198;
+      border-radius: 5px;
+
+      h2 {
+        padding-top: 0.8rem;
+      }
+
+      input {
+        background-color: #CBE4BC;
+        font-size: 1rem;
+        width: 50%;
+        margin: 0 auto;
+        margin-left: 25%;
+      }
+
+      .add-contact {
+        width: 100%;
+        border: 0;
+        background-color: #90B278;
+        margin-left: 0;
+        font-size: 1.2rem;
+        padding: 0.5rem;
+        color: white;
+
+        &:hover {
+          background-color: black;
+        }
+      }
+
+      #number {
+        margin-bottom: 1rem;
+      }
+    }
+}
